@@ -1,0 +1,105 @@
+/* Hero Two Columns */
+.hero-two-col {
+    padding: 60px 0;
+    background: #f8f8f8;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+}
+
+.two-col .col {
+    flex: 1;
+    overflow: hidden;
+}
+
+.two-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for laptop screens */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #222;
+    color: #fff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section with Background Image */
+.main-image {
+    background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-image h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background-color: #fff;
+    color: #4a90e2;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background-color: #e6e6e6;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
